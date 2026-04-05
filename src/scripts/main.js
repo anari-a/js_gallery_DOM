@@ -18,6 +18,5 @@ gallery.addEventListener('click', (e) => {
   if (!bigImageUrl) {
     return;
   }
-
   mainImg.src = bigImageUrl;
 });
