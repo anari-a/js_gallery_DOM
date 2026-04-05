@@ -13,7 +13,7 @@ gallery.addEventListener('click', (e) => {
 
   e.preventDefault();
 
-  const bigImageUrl = link.getAttribute('src') || link.dataset.full;
+  const bigImageUrl = link.getAttribute('href') || link.dataset.full;
 
   if (!bigImageUrl) {
     return;
